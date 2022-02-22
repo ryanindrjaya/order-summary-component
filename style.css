@@ -1,0 +1,116 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width: 3670px) {
+    main {
+        background-image: url("images/pattern-background-desktop.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 980px) {
+    main {
+        background-image: url("images/pattern-background-mobile.svg");
+        background-size: cover;
+    }
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
+.card img {
+    border-radius: 20px 20px 0 0;
+}
+
+.card-body {
+    padding: 25px 40px;
+}
+
+.card-body h5 {
+    font-weight: 900;
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    margin: 15px 0;
+}
+
+.card-text {
+    padding: 0 20px;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 25px;
+}
+
+.plan {
+    padding-left: 16px;
+}
+
+.plan-pricing {  
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 17px 0;
+    margin-bottom: 25px;
+}
+
+#heading {
+    font-weight: 900;
+    margin: 0;
+    font-size: 14px;
+}
+
+#price {
+    margin: 0;
+    font-size: 14px;
+}
+
+.plan-pricing a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.2s color;
+}
+
+.btn {
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    box-shadow: 0px 10px 10px 7px hsla(245, 75%, 52%, 0.171);
+    margin-bottom: 25px;
+    font-size: 15px;
+    padding: 10px 0px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.3s background-color;
+}
+
+.btn:hover {
+    background-color: hsla(245, 75%, 52%, 0.616);
+}
+
+.plan-pricing a:hover {
+    color: hsla(245, 75%, 52%, 0.616);
+}
+
+#cancel-btn:hover {
+    color: hsl(222, 34%, 11%);
+}
+
+#cancel-btn {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 14px;
+    transition: 0.2s color;
+}
