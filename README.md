@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/ryanindrjaya/order-summary-component)
-- Live Site URL: [](https://ryanindrjaya.github.io/order-summary-component/)
+- Solution URL: [Solution URL](https://github.com/ryanindrjaya/order-summary-component)
+- Live Site URL: [Live Site URL](https://ryanindrjaya.github.io/order-summary-component/)
 
 ## My process
 
